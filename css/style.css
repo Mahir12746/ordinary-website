@@ -164,3 +164,31 @@
     display: block;
 }
 
+.play-main{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play-left{
+    width: 40%;
+}
+
+.play-right{
+    width: 40%;
+    position: relative;
+}
+
+.play-right img{
+    width: 100%;
+}
+
+.play-right .cat{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    bottom: -60px;
+    left: -60px;
+}
