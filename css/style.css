@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* navbar design starts here */
+
+.nav-container{
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.076);
+
+}
+
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+}
+
+.nav-right{
+    display: flex;
+}
+
+.nav-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.nav-btn-follow{
+    background-color: #5a595c7a;
+    padding: 7px 15px;
+    border-radius: 6px;
+    margin-right: 0;
+}
+
+/* header starts here */
+
+.header-container{
+    background-image: url(../resources/Group\ 14.png);
+    background-repeat: no-repeat;
+}
+
+.header-main{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left{
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.goat{
+    font-size: 50px;
+    background-image: linear-gradient(#F948B2,#8758F1);
+    background-clip: text;
+    color: transparent;
+
+}
+
+.header-right{
+    width: 50%;
+}
+
+.header-right img{
+    width: 100%;
+}
+
+.header-btn1, .header-btn2{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.header-btn1{
+    background-color: #FF42A5;
+    margin-right: 12px;
+}
+
+.header-btn2{
+    background-color: #4EC5F7;
+}
+
+
+/* online section css starts here */
+
+.online-main{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "a b c d";
+    gap: 10px;
+}
+
+.online-card{
+    position: relative;
+}
+
+.online-card img{
+    width: 100%;
+}
+
+.card-1{
+    grid-area: a;
+}
+
+.card-2{
+    grid-area: b;
+}
+
+.card-3{
+    grid-area: c;
+}
+
+.card-4{
+    grid-area: d;
+}
+
+.watch-now {
+    position: absolute;
+    top: 38%;
+    left: 33%;
+    text-align: center;
+    display:none;
+}
+
+.watch-now span {
+    font-size: 30px;
+    color: white;
+}
+
+.watch-now p{
+    color: white;
+    font-size: 20px;
+}
+
+.online-card img:hover+ .watch-now{
+    display: block;
+}
+
+.online-card img:hover{
+    filter: brightness(0.5);
+}
+
+.watch-now:hover{
+    display: block;
+}
+
