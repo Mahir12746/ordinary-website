@@ -192,3 +192,30 @@
     bottom: -60px;
     left: -60px;
 }
+
+/* category section css starts here */
+
+.category-main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    max-width: 1000px;
+    gap: 5px;
+    justify-content: center;
+}
+
+.category-child{
+    border-radius: 20px;
+    display: flex;
+    align-items:center;
+    flex-basis: 180px;
+}
+
+.category-child:hover{
+    outline: 2px solid #FF42A5;
+}
+
+.category-child img{
+    width: 40px;
+}
+

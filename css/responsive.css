@@ -41,4 +41,13 @@
         width: 100%;
     }
 
+    .category-child img{
+        width: 30px;
+    }
+
+    .category-child{
+        flex-basis: 90px;
+        font-size: 10px;
+    }
+
 }
